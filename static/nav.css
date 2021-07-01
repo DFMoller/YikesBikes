@@ -26,6 +26,12 @@ nav a:hover {
 nav h3{
     margin: 0.6em 1em;
 }
+.website-title-link:hover{
+    text-decoration: none;
+}
+.website-title:hover{
+    color: var(--dark-grey);
+}
 /* .cart-link{
     margin: 0 1rem;
     display: flex;
@@ -66,18 +72,31 @@ nav .btn{
     color: var(--dark-grey);
 }
 .nav-cart-link{
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 .nav-cart{
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
-/* .nav-cart:hover{
-    cursor: pointer;
-} */
+.nav-cart:hover > path{
+    stroke: var(--dark-grey);
+}
 .nav-cart path{
     stroke: var(--light);
 }
 .nav-cart-wheel {
     fill: var(--light);
+}
+.bikes-icon{
+    height: 2rem;
+    width: 3rem;
+}
+.bikes-icon:hover > path{
+    stroke: var(--dark-grey);
+}
+.bikes-icon path{
+    stroke: var(--light);
+}
+.nav-bikes-link{
+    margin-right: 2rem;
 }

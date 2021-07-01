@@ -50,7 +50,11 @@
                     <div class="info-card">
                         <h4><?php echo "TREK " . $title; ?></h4>
                         <p class="p2"><?php echo $display_price; ?></p>
-                        <p class="stock">Bikes in Stock: <?php echo $bike['stock']; ?></p>
+                        <p class="stock">Bikes in Stock: <span class="static_count"><?php echo $bike['stock']; ?></span></p>
+                        <?php if(isset($_SESSION['admin'])): ?>
+                            <label for="addStock">Admin: Update Bike Stock</label>
+                            <input class="add-stock mb-3" onchange="updateStock('<?php echo $bikename; ?>')" type="number" value="<?php echo $bike['stock']; ?>" id="addStock">
+                        <?php endif ?>
                         <div class="bike-action">
                             <div class="add-to-cart-button" onclick="<?php echo "window.location.href = 'redirect.php?destination=cart.php&bike=$bikename&code=$code';"; ?>">
                                 <svg class="add-to-cart-icon" width="71" height="65" viewBox="0 0 71 65" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,13 +100,27 @@
 
     <script type="text/javascript">
 
-        // var info = document.querySelector(".right-info");
-        // var card = document.querySelector(".bike-card");
-        // var info_height = info.offsetHeight;
-        // var card_height = card.offsetHeight;
-        // console.log(info_height);
-        // console.log(card_height);
-        // info.style.height = card.style.height;
+        function updateStock(shortname) {
+
+            var count = document.getElementById("addStock").value;
+            var display_count = document.querySelector(".static_count");
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var result = this.responseText;
+                    console.log(result);
+                    display_count.innerHTML = count;
+                }
+            };
+
+            var parameters = "shortname=" + shortname + "&count=" + count;
+            
+            xhttp.open("POST", "includes/updateStock.inc.php", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send(parameters);
+
+        }
 
     </script>
     

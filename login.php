@@ -80,9 +80,10 @@
                         $_SESSION['username'] = $userExists['username'];
                         $_SESSION['email'] = $userExists['email'];
                         $_SESSION['user_id'] = $userExists['id'];
+                        $_SESSION['last_online'] = getLastOnline($conn, $_SESSION['user_id']);
                         $screen_res = $_POST['screen-width'] . "x" . $_POST['screen-height'];
                         store_user_data($screen_res, $conn);
-                        header("Location: redirect.php?destination=home.php");
+                        header("Location: redirect.php?destination=home.php&welcome=true");
                         exit();
                     }
                 }

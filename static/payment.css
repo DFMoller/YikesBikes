@@ -18,6 +18,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 .payment-summary{
     display: flex;
@@ -100,4 +101,20 @@
 .grandTotal-row{
     border-top: 1px solid var(--dark-grey);
 }
-
+.payment-error-box{
+    font-size: 15px;
+    color: var(--red);
+    border: 1px solid var(--red);
+    margin-top: 2rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+.payment-error-box p{
+    color: var(--red);
+}
+.payment-error-box ul{
+    list-style: circle;
+}
+.payment-error-box li{
+    margin-left: 2rem;
+}

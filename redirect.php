@@ -5,7 +5,7 @@
     session_start();
 
     if (!isset($_GET['destination']) || !isset($_SESSION['email'])) {
-        header("Location: home.php");
+        header("Location: products.php");
     } elseif (isset($_GET['destination']) && !isset($_SESSION['email'])) {
         // user not logged in
         // Redirect

@@ -2,12 +2,12 @@
 
 .introduction_box{
     width: 75%;
-    margin-top: 5rem;
+    margin-top: 8rem;
     display: flex;
     align-items: center;
 }
 .introduction_box h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     /* letter-spacing: 2px; */
     line-height: 110%;
 }
@@ -24,13 +24,14 @@
     background-color: var(--grey);
     padding: 0.7rem 1rem;
     margin-top: 3rem;
+    border-radius: 5px;
 }
-.user-counter-box h4{
+.user-counter-box h5{
     color: var(--light);
     margin: 0 0 0.8rem 0;
 }
 .users-online{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: var(--light);
 }
 .intro-right{
@@ -38,4 +39,11 @@
 }
 .carousel-inner{
     background-color: white;
+    border-radius: 5px;
+}
+.intro-text a{
+    color: var(--green);
+}
+.intro-text p{
+    font-size: 1.3rem;
 }

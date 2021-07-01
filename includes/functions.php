@@ -101,13 +101,13 @@
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'kouemoue69@gmail.com';                     //SMTP username
-            $mail->Password   = 'appelkooskonfeit';                               //SMTP password
+            $mail->Username   = 'contact.yikesbikes@gmail.com';                     //SMTP username
+            $mail->Password   = 'yikesbikes2021';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             //Recipients
-            $mail->setFrom('kouemoue69@gmail.com', 'Webshop');
+            $mail->setFrom('kouemoue69@gmail.com', 'YikesBikes');
             $mail->addAddress($email);    //Add a recipient
 
             //Attachments
@@ -116,7 +116,7 @@
 
             $message = "
             <p>
-            Dear " . $username . ", this is your confirmation email from Webshop.<br><br>
+            Dear " . $username . ", this is your confirmation email from YikesBikes.<br><br>
             Your temporary password is: " . $temp_password . "<br><br>
             Please log in using this password and change your password within the next hour.<br>
             Failure to do so will cause your account to be deleted.<br><br>
@@ -174,13 +174,13 @@
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'kouemoue69@gmail.com';                     //SMTP username
-            $mail->Password   = 'appelkooskonfeit';                               //SMTP password
+            $mail->Username   = 'contact.yikesbikes@gmail.com';                     //SMTP username
+            $mail->Password   = 'yikesbikes2021';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             //Recipients
-            $mail->setFrom('kouemoue69@gmail.com', 'Webshop');
+            $mail->setFrom('kouemoue69@gmail.com', 'YikesBikes');
             $mail->addAddress($email);    //Add a recipient
 
             //Attachments
@@ -189,7 +189,7 @@
 
             $message = "
             <p>
-            Dear $username, this is your password reset email from Webshop.<br><br>
+            Dear $username, this is your password reset email from YikesBikes.<br><br>
             You can reset your password here:<br><br>
             <a href='$link'>$link</a><br><br>
             Please reset your password within the next hour.<br>
@@ -214,7 +214,7 @@
         $sql = "SELECT * FROM user_sessions WHERE user_id=?;";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
-            header("Location: home.php?error=stmtfailed_select");
+            header("Location: products.php?error=stmtfailed_select");
             exit();
         } 
 
@@ -228,7 +228,7 @@
             $stmt = mysqli_stmt_init($conn);
 
             if(!mysqli_stmt_prepare($stmt, $sql)){
-                header("Location: home.php?error=stmtfailed_update");
+                header("Location: products.php?error=stmtfailed_update");
                 exit();
             }
 
@@ -241,7 +241,7 @@
             $stmt = mysqli_stmt_init($conn);
 
             if(!mysqli_stmt_prepare($stmt, $sql)){
-                header("Location: home.php?error=stmtfailed_insert");
+                header("Location: products.php?error=stmtfailed_insert");
                 exit();
             }
             
@@ -296,7 +296,7 @@
         $sql = "SELECT * FROM bikes WHERE shortname = ?";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
-            header("Location: home.php?error=stmtfailed_getBike");
+            header("Location: products.php?error=stmtfailed_getBike");
             exit();
         }
 
@@ -502,7 +502,7 @@
             $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             //Recipients
-            $mail->setFrom('contact.yikesbikes@gmail.com', 'Webshop');
+            $mail->setFrom('contact.yikesbikes@gmail.com', 'YikesBikes');
             $mail->addAddress($email);    //Add a recipient
 
             //Attachments
@@ -510,7 +510,7 @@
             // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
             $message = "
-            <strong>Dear " . $username . ", this is your payment confirmation email from Webshop.</strong>
+            <strong>Dear " . $username . ", this is your payment confirmation email from YikesBikes.</strong>
             <p>
             Your payment was successful and you have purchased the following items:<br>
             <ul>";
@@ -548,7 +548,7 @@
 
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Subject = 'Paymen Confirmation';
+            $mail->Subject = 'Payment Confirmation';
             $mail->Body    = $message;
             $mail->AltBody = strip_tags($message);
 
@@ -617,8 +617,6 @@
 
         $instance = $checkout_data;
 
-        print_r($instance);
-
         if(!$history) {
             $history = array($timestamp => $instance);
         } else {
@@ -657,7 +655,7 @@
 
     function makePayment($username, $user_id, $email) {
 
-        include_once("includes/db_connect.php");
+        include("includes/db_connect.php");
         $sql = "SELECT * FROM carts WHERE user_id = ?;";
         $stmt = mysqli_stmt_init($conn);
         if(!mysqli_stmt_prepare($stmt, $sql)) {
@@ -706,6 +704,50 @@
             return $history;
         }
         mysqli_stmt_close($stmt);
+
+    }
+
+    function checkStock($conn, $shortname, $count) {
+
+        $sql = "SELECT * FROM bikes WHERE shortname = ?";
+        $stmt = mysqli_stmt_init($conn);
+        if(!mysqli_stmt_prepare($stmt, $sql)) {
+            header("Location: redirect.php?destination=products.php&error=checkStock_statement_failed");
+            exit();
+        }
+        mysqli_stmt_bind_param($stmt, "s", $shortname);
+        mysqli_stmt_execute($stmt);
+
+        $result = mysqli_stmt_get_result($stmt);
+        if (!$bike = mysqli_fetch_assoc($result)) {
+            header("Location: redirect.php?destination=products.php&error=checkStock_result_statement_failed");
+            exit();
+        }
+        mysqli_stmt_close($stmt);
+
+        if ($bike['stock'] < $count) {
+            return false;
+        } else {
+            return true;
+        }
+
+    }
+
+    function getLastOnline($conn, $user_id) {
+
+        $sql = "SELECT * FROM users WHERE id = ?;";
+        $stmt = mysqli_stmt_init($conn);
+        if(!mysqli_stmt_prepare($stmt, $sql)) {
+
+        }
+        mysqli_stmt_bind_param($stmt, "s", $user_id);
+        mysqli_stmt_execute($stmt);
+
+        $result = mysqli_stmt_get_result($stmt);
+        $user = mysqli_fetch_assoc($result);
+        mysqli_stmt_close($stmt);
+
+        return $user['last_online'];
 
     }
 

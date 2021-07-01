@@ -66,65 +66,8 @@
                 }
 
             }
-
-
-
-
-            // $userExists = userExists($conn, $email);
-            // if ($userExists === false) {
-            //     $errors['email'] = "No user with that email!";
-            //     $feedback['email'] = "is-invalid";
-            // } else {
-
-            //     // $feedback['email'] = "is-valid";
-            //     $dbPwd = $userExists['pwd'];
-            //     if ($userExists['pwdChanged'] == true) {
-            //         // The user has already changed his/her password
-            //         $verify = hash('sha512', $_POST['pwd']);
-            //     } elseif ($userExists['pwdChanged'] == false) {
-            //         // This is the user's default (temporary) password
-            //         $verify = $_POST['pwd'];
-            //     } else {
-            //         $errors['pwd'] = "Password matching error in DB";
-            //         $feedback['pwd'] = "is-invalid";
-            //     }
-            //     $result = ($dbPwd === $verify);
-            //     if ($result === false) {
-            //         $errors['pwd'] = 'Incorrect Password!';
-            //         $feedback['pwd'] = "is-invalid";
-            //     } elseif ($result === true) {
-
-            //         // If user is using default password after 24 hours, delete account
-            //         $joinTime = strtotime($userExists['joined']);
-            //         // echo date('d/m/y G:i:s', time());
-            //         if ($userExists['pwdChanged'] == false && (time() - $joinTime) > 3600) {
-            //             // Delete User
-            //             $errors['pwd'] = "You have used your temporary password for more than 1 hour! Therefore, your account has been deleted. Please create a <a href='signup.php'>new account</a>.";
-            //             $feedback['pwd'] = "is-invalid";
-            //             deleteUser($conn, $userExists['email']);
-            //         } elseif ($userExists['pwdChanged'] == false && (time() - $joinTime) <= 3600) {
-            //             // Log in the user with temp password
-            //             session_start();
-            //             $_SESSION['username'] = $userExists['username'];
-            //             $_SESSION['email'] = $userExists['email'];
-            //             $_SESSION['user_id'] = $userExists['id'];
-            //             $screen_res = $_POST['screen-width'] . "x" . $_POST['screen-height'];
-            //             store_user_data($screen_res, $conn);
-            //             header("Location: redirect.php?destination=changepwd.php");
-            //             exit();
-            //         } else {
-            //             // Log in the user with correct password
-            //             session_start();
-            //             $_SESSION['username'] = $userExists['username'];
-            //             $_SESSION['email'] = $userExists['email'];
-            //             $_SESSION['user_id'] = $userExists['id'];
-            //             $screen_res = $_POST['screen-width'] . "x" . $_POST['screen-height'];
-            //             store_user_data($screen_res, $conn);
-            //             header("Location: redirect.php?destination=home.php");
-            //             exit();
-            //         }
-            //     }
-            // }
+            mysqli_stmt_close($stmt);
+            
         }
     }
 

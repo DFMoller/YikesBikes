@@ -116,6 +116,7 @@
                     <tbody>
                         <tr>
                             <th class="cart-col1">Bike</th>
+                            <th class="td-narrow">DEL</th>
                             <th class="td-narrow">Count</th>
                             <th class="td-narrow">Unit Price</th>
                             <th class="td-narrow">Discount</th>
@@ -126,6 +127,9 @@
                                 <tr class="data-row">
                                     <td class="data-title">
                                         <?php echo $bike['title']; ?>
+                                    </td>
+                                    <td class="remove-td">
+                                        <a class="remove-row" href="#" onclick="removeBike('<?php echo $bike['shortname']; ?>')">REMOVE</a>
                                     </td>
                                     <td class="td-narrow">
                                         <input class="data-count form-control" type="number" onchange="updateCart();" min="0" value="<?php echo $bike['count']; ?>" aria-describedby="<?php echo $bike['shortname']; ?>CountFeedback">
@@ -146,6 +150,7 @@
                                 <td class="td-narrow"></td>
                                 <td class="td-narrow"></td>
                                 <td class="td-narrow"></td>
+                                <td class="td-narrow"></td>
                             </tr>
                         <?php endif ?>
                     </tbody>
@@ -154,6 +159,9 @@
                     <input type="hidden" name="validation" value="1">
                     <input class="cart-checkout-btn <?php echo $feedback['submit']; ?>" name="submit" type="submit" aria-describedby="submitFeedback" value="Checkout">
                     <div id="submitFeedback" class="invalid-feedback submitFeedback"><?php echo $errors['submit']; ?></div>
+                <?php else: ?>
+                    <!-- This line below will be hidden, it is just included to avoid causing an error in Javascript -->
+                    <input class="cart-checkout-btn" name="submit" type="submit"value="Checkout">
                 <?php endif ?>
             </form>
         </section>
@@ -300,6 +308,27 @@
             xhttp.open("POST", "includes/checkStock.inc.php", true);
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xhttp.send(parameters);
+
+        }
+
+        function removeBike(shortname) {
+
+            var rows = document.querySelectorAll(".data-row");
+
+            rows.forEach((row) => {
+
+                var row_shortname = row.querySelector(".data-shortname").value;
+                var row_count_input = row.querySelector(".data-count");
+
+                if (row_shortname == shortname) {
+
+                    row_count_input.value = 0;
+
+                }
+
+            })
+
+            updateCart();
 
         }
 

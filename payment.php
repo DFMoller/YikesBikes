@@ -9,8 +9,9 @@
 
     $errors = array("firstname" => "", "lastname" => "", "email" => "", "address" => "", "city" => "", "zip" => "", "cardname" => "", "cardnumber" => "", "cvv" => "");
     $feedback = array("firstname" => "", "lastname" => "", "email" => "", "address" => "", "city" => "", "zip" => "", "cardname" => "", "cardnumber" => "", "cvv" => "");
+    $errorBikes = array();
 
-    $firstname = $lastname = $email = $address = $city = $country_code = $zipcode = $cardname = $cardnumber = $expireyear = $expiremonth = $cvv = "";
+    $firstname = $lastname = $email = $address = $city = $country_code = $zipcode = $cardname = $cardnumber = $expireyear = $expiremonth = $cvv = $stockError = "";
 
     if (isset($_POST['submit'])) {
 
@@ -79,8 +80,30 @@
             // If there are no Errors
             
             include_once("includes/functions.php");
-            makePayment($_SESSION['username'], $_SESSION['user_id'], $email);
-            exit();
+            include_once("includes/db_connect.php");
+
+            // Check stock one last time
+            $cart = getCart($conn);
+            $checkout_data = json_decode($cart['checkout'], true);
+            $bikes = $checkout_data['rows'];
+
+            $inStock = true;
+            foreach($bikes as $bike) {
+                $shortname = $bike['shortname'];
+                $count = $bike['count'];
+                if(!checkStock($conn, $shortname, $count)){
+                    $inStock = false;
+                    array_push($errorBikes, $bike['title']);
+                }
+            }
+
+            if ($inStock) {
+                makePayment($_SESSION['username'], $_SESSION['user_id'], $email);
+                header("Location: redirect.php?destination=payment_success.php");
+                exit();
+            } else {
+                $stockError = "You are exceeding the available stock for the following bikes:";
+            }
 
         }
 
@@ -88,9 +111,7 @@
     } elseif (!isset($_POST['delivery-method']) && !isset($_POST['Make Payment'])) {
         header("Location: redirect.php?destination=products.php&error=access_denied");
         exit();
-    }
-
-        
+    }   
             
     // Page was accessed correctly
     include_once("includes/db_connect.php");
@@ -262,6 +283,16 @@
                             </tr>                  
                         </tbody>
                     </table>
+                    <?php if($stockError != ""): ?>
+                    <div class="payment-error-box ml-4 mr-4">
+                        <p class="mb-1 mt-3"><?php echo $stockError; ?></p>
+                        <ul>
+                            <?php foreach($errorBikes as $errBike): ?>
+                                <li><?php echo $errBike; ?></li>
+                            <?php endforeach ?>
+                        </ul>
+                    </div>
+                    <?php endif ?>
                 </div>
                 
             </div>

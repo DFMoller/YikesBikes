@@ -17,7 +17,8 @@
             $name = $_POST['username'];
             if(strlen($name) < 2){
                 $errors['username'] = 'User Name is too short!';
-            } elseif (!preg_match("/^[a-zA-Z\s]*$/", $name)) {
+            } 
+            elseif (!preg_match("/^[A-Za-zÀ-ÖØ-öø-ÿ\s]*$/", $name)) {
                 $errors['username'] = 'Only letters and spaces are accepted!';
             }
         }

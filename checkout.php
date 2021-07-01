@@ -138,15 +138,15 @@
 
             switch(deliverySelection) {
                 case "DPD":
-                    deliveryFee = 15;
+                    deliveryFee = 200;
                     break;
                 
                 case "DHL":
-                    deliveryFee = 25;
+                    deliveryFee = 400;
                     break;
                 
                 case "DHLX":
-                    deliveryFee = 40;
+                    deliveryFee = 720;
                     break;
 
                 default:

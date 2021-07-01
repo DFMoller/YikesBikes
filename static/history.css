@@ -11,9 +11,29 @@
     padding-left: 1rem;
     width: 80%;
     color: var(--dark-grey);
+    white-space: nowrap;
+}
+.hist-title-box{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
 }
 .hist-timestamp{
     margin-left: 1rem;
+}
+.re-order-btn{
+    text-decoration: none;
+    background-color: var(--green);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+.re-order-btn:hover{
+    background-color: var(--dark-green);
+    text-decoration: none;
+    color: white;
 }
 .hist-table{
     width: 100%;
@@ -43,4 +63,7 @@
 }
 .hist-narrow{
     width: 15%;
+}
+.hist-center{
+    text-align: center;
 }

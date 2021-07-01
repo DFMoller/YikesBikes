@@ -1,6 +1,6 @@
 <?php
 
-    header("Location: home.php");
+    header("Location: products.php");
     exit();
 
     // include_once("includes/db_connect.php");

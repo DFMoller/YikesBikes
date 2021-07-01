@@ -2,6 +2,15 @@
     
     session_start();
 
+    if (!isset($_SESSION['username'])){
+        header("Location: products.php");
+        exit();
+    }
+
+    if (isset($_GET['welcome'])) {
+        echo "<p class='green-alert alert'>Welcome " . $_SESSION['username'] . "<br>You were last online on " . $_SESSION['last_online'] . "</p>";
+    }
+
     // Read JSON file
     $json = file_get_contents('static/bikes/data.json');
         
@@ -23,11 +32,11 @@
         <div class="introduction_box">
             <div class="intro-left">
                 <div class="intro-text">
-                    <h1>WELCOME TO<br>YIKES BIKES</h1>
-                    <p class="p3">Have a look at our range <a class="blue" href="redirect.php?destination=products.php">HERE</a></p>
+                    <h1>Welcome to YIKES BIKES</h1>
+                    <p>Have a look at our range <a href="redirect.php?destination=products.php">here</a></p>
                 </div>
                 <div class="user-counter-box">
-                    <h4>Users Currently Online</h4>
+                    <h5>Users Currently Online</h5>
                     <span class="users-online" id="num-users"></span>
                 </div>
             </div>

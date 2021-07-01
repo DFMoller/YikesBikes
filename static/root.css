@@ -9,6 +9,7 @@
     --grey: #97ACB1;
     --light: #EEF0F2;
     --green: #59A37F;
+    --dark-green: #448a68;
     --blue: #5FB9DD;
     --red: #FF4545;
 }
@@ -67,6 +68,15 @@ table, th, td{
 .red-alert{
     padding: 0.5rem 1rem;
     background-color: var(--red);
+    color: var(--light);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.green-alert{
+    padding: 0.5rem 1rem;
+    background-color: var(--green);
     color: var(--light);
     position: absolute;
     top: 10px;
