@@ -1,0 +1,57 @@
+@import "root.css";
+
+.checkout-summary-table{
+    width: 50%;
+    border-radius: 5px;
+    border-collapse: separate;
+    background-color: white;
+}
+.checkout-summary-table td, .checkout-summary-table th {
+    padding: 0.15rem 0.3rem;
+    border: none;
+    color: var(--dark-grey);
+}
+.checkout-summary-table th{
+    border-right: 1px solid var(--grey);
+}
+.checkout-summary-table td{
+    width: 25%;
+    text-align: center;
+}
+.summary-title{
+    margin-top: 3rem;
+}
+.delivery-options{
+    display: flex;
+    flex-direction: column;
+}
+.delivery-options label{
+    color: var(--dark-grey);
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+}
+.delivery-options input{
+    margin-right: 0.5rem;
+}
+.delivery-options span{
+    margin-left: 1rem;
+    color: var(--grey);
+}
+.checkout-grand-total{
+    font-weight:500;
+}
+.delivery-title{
+    margin-top: 2rem;
+}
+#consent-checkbox{
+    margin: 1rem 1rem 1rem 0;
+}
+.checkout-btn{
+    /* margin-top: 0.5rem; */
+    padding: 0.25rem 1rem;
+    align-self: flex-end;
+    background-color: var(--green);
+    color: white;
+    border: 1px solid var(--dark-grey);
+    border-radius: 3px;
+}

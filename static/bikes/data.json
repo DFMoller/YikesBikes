@@ -1,0 +1,1214 @@
+{
+    "marlin8": {
+        "title": "Marlin 8",
+        "price": 18000,
+        "display_price": "R 18 000",
+        "img": "marlin8.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "Alpha Silver Aluminium, internal routing, chainstay discbrake mount, rack and kickstand mount, 135x5 mm QR"
+                ],
+                "Fork": [
+                    "RockShox Judy Silver, Solo Air spring, rebound adjust, TurnKey hydraulic lockout, 100mm QR, 100mm travel"
+                ],
+                "Max compatible fork travel": [
+                    "100mm XS S: 490mm axletocrown, M up: 509mm axletocrown"
+                ]
+            },
+            "Wheels": {
+                "Hub front": [
+                    "Formula DC20 LW, alloy, 6bolt, 5x100 mm QR"
+                ],
+                "Hub rear": [
+                    "Formula DC22LW, 6bolt, Shimano 8910 freehub, 135x5 mm QR"
+                ],
+                "Rim": [
+                    "Bontrager Kovee, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve"
+                ],
+                "Spokes": [
+                    "14 g stainless steel"
+                ],
+                "*Tyre": [
+                    "Size: S Maxxis Ardent Race, tubeless, EXO casing, folding bead, 60tpi, 27.5x2.35",
+                    "Size: M , L , XL , XXL Maxxis Ardent Race, tubeless, EXO casing, folding bead, 60tpi, 29x2.35",
+                    "Size: M , L , XL , XXL Maxxis Ardent Race, tubeless, EXO casing, folding bead, 60tpi, 29x2.20"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.20 XS S: 27.5x2.4 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM SX Eagle"
+                ],
+                "*Crank": [
+                    "Size: S , M SRAM SX Eagle, 30T steel ring 49mm chainline, 170mm length",
+                    "Size: L , XL , XXL SRAM SX Eagle, 30T steel ring 49mm chainline, 175mm length"
+                ],
+                "Bottom bracket": [
+                    "Truvativ Powerspline, 73 mm, threaded cartridge, 118 mm spindle"
+                ],
+                "Cassette": [
+                    "SRAM PG1210 Eagle, 1150, 12speed"
+                ],
+                "Chain": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Pedal": [
+                    "VP536 nylon platform"
+                ],
+                "Max. chainring size": [
+                    "1x2x: 34T, 3x: 42T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Arvada, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: S , M Bontrager alloy, 31.6 mm, 12 mm offset, 330 mm length",
+                    "Size: L , XL Bontrager alloy, 31.6mm, 12mm offset, 400mm length",
+                    "Size: L , XL , XXL Bontrager alloy, 31.6 mm, 12 mm offset, 400 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager alloy, 31.8 mm, 5 mm rise, 720 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Trail Comp, nylon lockon"
+                ],
+                "*Stem": [
+                    "Size: S Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 60 mm length",
+                    "Size: M Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 70 mm length",
+                    "Size: L Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 80 mm length",
+                    "Size: XL , XXL Bontrager alloy, 31.8 mm clamp, Blendrcompatible, 7degree, 90 mm length"
+                ],
+                "Head set": [
+                    "Semiintegrated, 118"
+                ],
+                "Brake": [
+                    "Shimano MT200 hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S , M , L , XL , XXL Shimano RT26, 6bolt,160 mm",
+                    "Size: L , XL , XXL Shimano RT26, 6bolt,180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 13.20 kg 29.1 lbs with tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "marlin5": {
+        "title": "Marlin 5",
+        "price": 10000,
+        "display_price": "R 10 000",
+        "img": "marlin5.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "Alpha Silver Aluminium, internal routing, chainstay discbrake mount, rack and kickstand mount, 135x5 mm QR"
+                ],
+                "*Fork": [
+                    "Size: XXS SR Suntour XCM 30, coil spring, lockout, preload, 100 mm QR, 100 mm travel",
+                    "Size: XS SR Suntour XCT 30, coil spring, preload, hydraulic lockout, 42 mm offset for 27.5 wheel, 100 mm QR, 80 mm travel",
+                    "Size: XS SR Suntour XCT 30, coil spring, lockout, preload, 100 mm QR, 80 mm travel",
+                    "Size: S SR Suntour XCT 30, coil spring, preload, hydraulic lockout, 42 mm offset for 27.5 wheel, 100 mm QR, 100 mm travel",
+                    "Size: S , M , L , XL SR Suntour XCT 30, coil spring, lockout, preload, 100 mm QR, 100 mm travel",
+                    "Size: M , L , XL , XXL SR Suntour XCT 30, coil spring, preload, hydraulic lockout, 100 mm QR, 100 mm travel"
+                ]
+            },
+            "Wheels": {
+                "Hub front": [
+                    "Formula DC20, alloy, 6bolt, 5x100 mm QR"
+                ],
+                "Hub rear": [
+                    "Formula DC22, alloy, 6bolt, Shimano 8910 freehub, 135x5 mm QR"
+                ],
+                "*Rim": [
+                    "Size: XXS Bontrager Connection, alloy, doublewall, 32hole, 20 mm width, Schrader valve",
+                    "Size: XS , S , M , L , XL , XXL Bontrager Connection, doublewall, 32hole, 20 mm width, Schrader valve"
+                ],
+                "Spokes": [
+                    "14 g stainless steel"
+                ],
+                "*Tyre": [
+                    "Size: XXS Bontrager XR2 Comp, wire bead, 30 tpi, 26x2.20",
+                    "Size: XS , S Bontrager XR2 Comp, wire bead, 30 tpi, 27.5x2.20",
+                    "Size: M , L , XL , XXL Bontrager XR2 Comp, wire bead, 30 tpi, 29x2.20"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "Shimano Altus M315, 8speed"
+                ],
+                "Front derailleur": [
+                    "Shimano Altus M315, 34.9 mm clamp, top swing, dual pull"
+                ],
+                "Rear derailleur": [
+                    "Shimano Altus M310"
+                ],
+                "*Crank": [
+                    "Size: XXS Prowheel TMCY10, 3622, 160 mm length",
+                    "Size: XS , S , M Shimano M315, 3622, 170 mm length",
+                    "Size: L , XL , XXL Shimano M315, 3622, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "VP BC73, 73 mm, threaded cartridge"
+                ],
+                "Cassette": [
+                    "Shimano 8speed, 1232T"
+                ],
+                "Chain": [
+                    "KMC Z8.3, 8 speed"
+                ],
+                "Pedal": [
+                    "VP536 nylon platform"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Arvada, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: XXS Bontrager alloy, 31.6mm, 12mm offset, 300mm length",
+                    "Size: XS , S , M Bontrager alloy, 31.6 mm, 12 mm offset, 330 mm length",
+                    "Size: L , XL , XXL Bontrager alloy, 31.6 mm, 12 mm offset, 400 mm length"
+                ],
+                "*Handlebar": [
+                    "Size: XXS , XS Bontrager alloy, 31.8 mm, 5 mm rise, 690 mm width",
+                    "Size: S , M , L , XL , XXL Bontrager alloy, 31.8 mm, 5 mm rise, 720 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Endurance Comp"
+                ],
+                "*Stem": [
+                    "Size: XXS Bontrager alloy, 31.8mm, Blendr compatible, 7 degree, 35mm length",
+                    "Size: XS Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 50 mm length",
+                    "Size: S Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 60 mm length",
+                    "Size: M Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 70 mm length",
+                    "Size: L Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 80 mm length",
+                    "Size: XL , XXL Bontrager alloy, 31.8 mm clamp, Blendrcompatible, 7degree, 90 mm length"
+                ],
+                "Head set": [
+                    "Semiintegrated, 118"
+                ],
+                "*Brake": [
+                    "Size: XXS , XS , S Tektro HDM276 hydraulic disc, shortreach lever",
+                    "Size: M , L , XL , XXL Tektro HDM275 hydraulic disc"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 30.80 lbs 13.9725 kg"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "supercaliber9.8gx": {
+        "title": "Supercaliber 9.8 GX",
+        "price": 110000,
+        "display_price": "R 110 000",
+        "img": "supercaliber9.8gx.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, IsoStrut, tapered head tube, Knock Block, Control Freak internal routing, Boost148, 60 mm travel"
+                ],
+                "Fork": [
+                    "Fox Performance 32 StepCast, Float EVOL air spring, GRIP 2position damper, remote lockout, tapered steerer, 44 mm offset, Boost110, 15 mm Kabolt axle, 100 mm travel"
+                ],
+                "Shock": [
+                    "Trek IsoStrut, Fox Performance shock, air spring, DPS 2position remote damper, 235x32.5 mm"
+                ],
+                "Suspension lever": [
+                    "Fox 2position"
+                ],
+                "Max compatible fork travel": [
+                    "120mm 531mm axletocrown"
+                ]
+            },
+            "Wheels": {
+                "*Wheel front": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Pro 30 Carbon, Tubeless Ready, 6bolt, Boost 110, 15mm thru axle",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Pro 30 carbon, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "*Wheel rear": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Elite 30, OCLV Mountain Carbon, Tubeless Ready, Rapid Drive 108, XD Driver, 6bolt, Boost148, 12mm thru axle",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Pro 30 carbon, Tubeless Ready, Rapid Drive 108, 6bolt, SRAM XD driver, Boost148, 12 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thruaxle, removable lever"
+                ],
+                "Tyre": [
+                    "Bontrager XR2 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.20"
+                ],
+                "*Tyre part": [
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR sealant, 180 ml6 oz",
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR valve, 50 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM GX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM GX Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM GX Eagle Carbon, DUB, 32T alloy ring, Boost, 170 mm length",
+                    "Size: M, ML, L, XL, XXLSRAM GX Eagle Carbon, DUB, 32T alloy ring, Boost 52 mm chain line, 175mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM Eagle XG1275, 1052, 12speed"
+                ],
+                "Chain": [
+                    "SRAM GX Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "36T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Montrose Elite, titanium rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager Pro, OCLV Carbon, 31.6 mm, 0 mm offset, 330 mm length",
+                    "Size: M, ML, L, XL, XXLBontrager Pro, OCLV Carbon, 31.6 mm, 0 mm offset, 400 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Kovee Pro, OCLV Carbon, 35 mm, 5 mm rise, 720 mm width"
+                ],
+                "Grips": [
+                    "ESI Chunky"
+                ],
+                "*Stem": [
+                    "Size: SBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 60 mm length",
+                    "Size: M, MLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 70 mm length",
+                    "Size: L, XLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 80 mm length",
+                    "Size: XXLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 90 mm length"
+                ],
+                "Head set": [
+                    "Knock Block Integrated, 62degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "Shimano Deore XT M8100 hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, ML, L, XL, XXLShimano RT76, 6bolt, 160 mm",
+                    "Size: S, M, ML, L, XL, XXLShimano RT76, 6bolt, 180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 10.38 kg 22.88 lbs with tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "supercaliber9.7": {
+        "title": "Supercaliber 9.7",
+        "price": 80000,
+        "display_price": "R 80 000",
+        "img": "supercaliber9.7.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, IsoStrut, tapered head tube, Knock Block, Control Freak internal routing, Boost148, 60 mm travel"
+                ],
+                "Fork": [
+                    "RockShox Reba RL, Solo Air spring, Motion Control damper, tapered steerer, 42 mm offset, Boost110, 15 mm Maxle Stealth, 100 mm travel"
+                ],
+                "Shock": [
+                    "Trek IsoStrut, Fox Performance shock, air spring, DPS 2position damper, 235x32.5 mm"
+                ],
+                "Max compatible fork travel": [
+                    "120mm 531mm axletocrown"
+                ]
+            },
+            "Wheels": {
+                "Wheel front": [
+                    "Bontrager Kovee Elite 23 carbon, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Wheel rear": [
+                    "Bontrager Kovee Elite 23 carbon, Tubeless Ready, CentreLock, Shimano 8910 freehub, Boost148, 12 mm thru axle"
+                ],
+                "Hub front": [
+                    "Bontrager alloy, sealed bearing, alloy axle, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thruaxle, removable lever"
+                ],
+                "Tyre": [
+                    "Bontrager XR2 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.20"
+                ],
+                "*Tyre part": [
+                    "Size: S, M, ML, L, XLBontrager TLR sealant, 180 ml6 oz",
+                    "Size: S, M, ML, L, XLBontrager TLR valve, 50 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM NX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM NX Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM NX Eagle, DUB, 32T alloy ring, Boost 52mm chainline, 170mm length",
+                    "Size: M, ML, L, XLSRAM NX Eagle, DUB, 32T alloy ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM PG1230 Eagle, 1150, 12speed"
+                ],
+                "Chain": [
+                    "SRAM NX Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "36T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Montrose Comp, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager Comp, 6061 alloy, 31.6 mm, 8 mm offset, 330mm length",
+                    "Size: M, ML, L, XLBontrager Comp, 6061 alloy, 31.6 mm, 8 mm offset, 400 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Comp, alloy, 31.8 mm, 5 mm rise, 720 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Trail Comp, nylon lockon"
+                ],
+                "*Stem": [
+                    "Size: SBontrager Rhythm Comp, 31.8mm, Knock Block, 0degree, 60 mm length",
+                    "Size: M, MLBontrager Rhythm Comp, 31.8 mm, Knock Block, 0degree, 70 mm length",
+                    "Size: L, XLBontrager Rhythm Comp, 31.8mm, Knock Block, 0degree, 80 mm length"
+                ],
+                "*Head set": [
+                    "Size: S, M, ML, L, XLKnock Block Integrated, 58degree radius, cartridge bearing, 118 top, 1.5 bottom",
+                    "Size: S, M, ML, L, XLKnock Block Integrated, 62degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "Shimano hydraulic disc, MT501 lever, MT500 caliper"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, ML, L, XLShimano RT56, 6bolt, 180 mm",
+                    "Size: S, M, ML, L, XLShimano RT56, 6bolt, 160 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 11.51 kg 25.38 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "topfuel9.7": {
+        "title": "Top Fuel 9.7",
+        "price": 70000,
+        "display_price": "R 70 000",
+        "img": "topfuel9.7.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, tapered head tube, Knock Block, Control Freak internal routing, Carbon Armor, magnesium rocker link, Mino Link, ABP, Boost148, 115 mm travel"
+                ],
+                "Fork": [
+                    "RockShox Reba RL, Solo Air spring, Motion Control damper, dual remote lockout, tapered steerer, 46 mm offset, Boost110, 15 mm Maxle Stealth, 120 mm travel"
+                ],
+                "Shock": [
+                    "Fox Performance Float, 2position DPS damper, Bontrager DropLock remote, 190x45mm"
+                ],
+                "Suspension lever": [
+                    "RockShox TwistLoc Full Sprint dual remote"
+                ],
+                "Max compatible fork travel": [
+                    "130mm"
+                ]
+            },
+            "Wheels": {
+                "Wheel front": [
+                    "Bontrager Kovee Comp 23, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Wheel rear": [
+                    "Bontrager Kovee Comp 23, Tubeless Ready, 6bolt, Shimano 8910 freehub, Boost148, 12 mm thru axle"
+                ],
+                "Hub front": [
+                    "Bontrager alloy, sealed bearing, alloy axle, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thru axle, removable lever"
+                ],
+                "*Rim": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Comp, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve"
+                ],
+                "Tyre": [
+                    "Bontrager XR3 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.40"
+                ],
+                "*Tyre part": [
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR sealant, 180 ml6 oz",
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR valve, 40 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM NX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM NX Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM NX Eagle, DUB, 32T steel ring, Boost, 170 mm length",
+                    "Size: M, ML, L, XL, XXLSRAM NX Eagle, DUB, 32T steel ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM PG1230 Eagle, 1150, 12speed"
+                ],
+                "Chain": [
+                    "SRAM NX Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "36T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Montrose Comp, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager Line Dropper, 100 mm travel, internal routing, 31.6 mm, 345 mm length",
+                    "Size: M, ML, L, XL, XXLBontrager Line Dropper, 150mm travel, internal routing, 31.6 mm, 440mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Comp, alloy, 31.8 mm, 15 mm rise, 750 mm width"
+                ],
+                "*Stem": [
+                    "Size: S, M, MLBontrager Rhythm Comp, 31.8mm, Knock Block, 0degree, 60 mm length",
+                    "Size: L, XL, XXLBontrager Rhythm Comp, 31.8 mm, Knock Block, 0degree, 70 mm length"
+                ],
+                "Head set": [
+                    "Knock Block Integrated, 58degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "Shimano hydraulic disc, MT501 lever, MT500 caliper"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, ML, L, XL, XXLShimano RT56, 6bolt, 180 mm",
+                    "Size: S, M, ML, L, XL, XXLShimano RT56, 6bolt, 160 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 12.65 kg 27.89 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "topfuel9.8gx": {
+        "title": "Top Fuel 9.8 GX",
+        "price": 100000,
+        "display_price": "R 100 000",
+        "img": "topfuel9.8gx.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, tapered head tube, Knock Block, Control Freak internal routing, Carbon Armor, magnesium rocker link, Mino Link, ABP, Boost148, 115 mm travel"
+                ],
+                "Fork": [
+                    "RockShox SID Select, DebonAir spring, Charger 2 RL damper, tapered steerer, 44 mm offset, Boost110, 15 mm Maxle Stealth, 120 mm travel"
+                ],
+                "Shock": [
+                    "RockShox SID Luxe Ultimate, DebonAir spring, Ultimate RL damper, 190x45 mm"
+                ],
+                "Suspension lever": [
+                    "Bontrager Drop Lock remote"
+                ],
+                "Max compatible fork travel": [
+                    "130mm"
+                ]
+            },
+            "Wheels": {
+                "*Wheel front": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Elite 30 Carbon, Tubeless Ready, 6bolt, Boost 110, 15mm thru axle",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Elite 30 carbon, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "*Wheel rear": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Elite 30, OCLV Mountain Carbon, Tubeless Ready, Rapid Drive 54, XD Driver, 6bolt, Boost148, 12mm thru axle",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Elite 30 carbon, Tubeless Ready, 54T Rapid Drive, 6bolt, SRAM XD driver, Boost148, 12 mm thru axle"
+                ],
+                "Hub front": [
+                    "Bontrager alloy, sealed bearing, alloy axle, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thru axle, removable lever"
+                ],
+                "Tyre": [
+                    "Bontrager XR3 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.40"
+                ],
+                "*Tyre part": [
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR sealant, 180 ml6 oz",
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR valve, 50 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM GX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM GX Eagle"
+                ],
+                "Crank": [
+                    "SRAM GX 7K Eagle, DUB, 32T alloy ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM Eagle XG1275, 1052, 12speed"
+                ],
+                "Chain": [
+                    "SRAM GX Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "36T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Montrose Elite, titanium rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager Line Elite Dropper, 100mm travel, MaxFlow, internal routing, 31.6mm, 340mm length",
+                    "Size: M, MLBontrager Line Elite Dropper, 150mm travel, MaxFlow, internal routing, 31.6mm, 440mm length",
+                    "Size: L, XL, XXLBontrager Line Elite Dropper, 170mm travel, MaxFlow, internal routing, 31.6mm, 480mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Line Pro, OCLV Carbon, 35 mm, 15 mm rise, 750 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Trail Elite, nylon lockon"
+                ],
+                "*Stem": [
+                    "Size: S, M, MLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 60 mm length",
+                    "Size: L, XL, XXLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 70 mm length"
+                ],
+                "Brake": [
+                    "SRAM G2 RS hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, ML, L, XL, XXLSRAM CenterLine, 6bolt, roundedge, 160 mm",
+                    "Size: S, M, ML, L, XL, XXLSRAM CenterLine, 6bolt, round edge, 180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 11.74 kg 25.88 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "topfuel7sx": {
+        "title": "Top Fuel 7 SX",
+        "price": 45000,
+        "display_price": "R 45 000",
+        "img": "topfuel7sx.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "Alpha Platinum Aluminium, tapered head tube, Knock Block, Control Freak internal routing, downtube guard, magnesium rocker link, Mino Link, ABP, Boost148, 115 mm travel"
+                ],
+                "Fork": [
+                    "RockShox Judy SL, Solo Air spring, Motion Control damper, tapered steerer, 42 mm offset, Boost110, 15 mm Maxle Stealth, 120 mm travel"
+                ],
+                "Shock": [
+                    "XFusion Pro 2, 190x45 mm"
+                ],
+                "Suspension lever": [
+                    "Bontrager Drop Lock remote"
+                ],
+                "Max compatible fork travel": [
+                    "130mm"
+                ]
+            },
+            "Wheels": {
+                "Wheel front": [
+                    "Bontrager Kovee Comp 23, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Wheel rear": [
+                    "Bontrager Kovee Comp 23, Tubeless Ready, 6bolt, Shimano 8910 freehub, Boost148, 12 mm thru axle"
+                ],
+                "Hub front": [
+                    "Bontrager alloy, sealed bearing, alloy axle, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thru axle, removable lever"
+                ],
+                "*Rim": [
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve",
+                    "Size: S, M, ML, L, XL, XXLBontrager Kovee Comp, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve"
+                ],
+                "Tyre": [
+                    "Bontrager XR3 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.40"
+                ],
+                "*Tyre part": [
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR sealant, 180 ml6 oz",
+                    "Size: S, M, ML, L, XL, XXLBontrager TLR valve, 50 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM SX Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM SX Eagle, DUB, 32T steel ring, Boost, 170 mm length",
+                    "Size: M, ML, L, XL, XXLSRAM SX Eagle, DUB, 32T steel ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM PG1210 Eagle, 1150, 12speed"
+                ],
+                "Chain": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "36T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Arvada, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: STranzX JDYSP18, 100 mm travel, internal routing, 31.6 mm, 361 mm length",
+                    "Size: M, ML, L, XL, XXLTranzX JDYSP18, 130mm travel, internal routing, 31.6 mm, 425 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Comp, alloy, 31.8 mm, 15 mm rise, 750 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Trail Comp, nylon lockon"
+                ],
+                "*Stem": [
+                    "Size: S, M, MLBontrager Rhythm Comp, 31.8mm, Knock Block, 0degree, 60 mm length",
+                    "Size: L, XL, XXLBontrager Rhythm Comp, 31.8 mm, Knock Block, 0degree, 70 mm length"
+                ],
+                "Head set": [
+                    "Knock Block Integrated, 58degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "Shimano MT200 hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, ML, L, XL, XXLShimano RT26, 6bolt,180 mm",
+                    "Size: S, M, ML, L, XL, XXLShimano RT26, 6bolt,160 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 14.17 kg 31.24 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "x-caliber8": {
+        "title": "X-Caliber 8",
+        "price": 21000,
+        "display_price": "R 21 000",
+        "img": "x-caliber8.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "Alpha Gold Aluminium, tapered head tube, internal derailleur and dropper post routing, rack and kickstand mount, Boost141, 5 mm QR"
+                ],
+                "*Fork": [
+                    "Size: SRockShox Judy SL, Solo Air spring, TurnKey lockout, tapered steerer, Boost110, 15 mm Maxle Lite, 100 mm travel",
+                    "Size: M, L, XL, XXLRockShox Judy SL, Solo Air spring, TurnKey lockout, tapered steerer, Boost110, 15 mm Maxle Stealth, 100 mm travel"
+                ],
+                "Max compatible fork travel": [
+                    "120mm XS: 100mm"
+                ]
+            },
+            "Wheels": {
+                "Hub front": [
+                    "Bontrager alloy, sealed bearing, alloy axle, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Hub rear": [
+                    "Formula DCL141Q, sealed bearing, 6bolt, Shimano 10 freehub, Boost141, 5 mm QR"
+                ],
+                "Rim": [
+                    "Bontrager Kovee, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve"
+                ],
+                "Spokes": [
+                    "14 g stainless steel"
+                ],
+                "*Tyre": [
+                    "Size: SBontrager XR3 Comp, wire bead, 30 tpi, 27.5x2.20",
+                    "Size: M, L, XL, XXLBontrager XR3 Comp, wire bead, 30 tpi, 29x2.20"
+                ],
+                "Max tyre size": [
+                    "Frame: 27.5x2.80 or 29x2.40 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM SX Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM SX Eagle, GXP, 30T steel ring, Boost, 170 mm length",
+                    "Size: M, L, XL, XXLSRAM SX Eagle, GXP, 30T steel ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "Truvativ Powerspline, 73 mm, threaded cartridge, 118 mm spindle"
+                ],
+                "Cassette": [
+                    "SRAM PG1210 Eagle, 1150, 12speed"
+                ],
+                "Chain": [
+                    "SRAM SX Eagle, 12speed"
+                ],
+                "Pedal": [
+                    "VP536 nylon platform"
+                ],
+                "Max. chainring size": [
+                    "32T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Arvada, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager alloy, 31.6 mm, 12 mm offset, 330 mm length",
+                    "Size: MBontrager alloy, 31.6 mm, 12 mm offset, 360 mm length",
+                    "Size: L, XL, XXLBontrager alloy, 31.6 mm, 12 mm offset, 400 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager alloy, 31.8 mm, 5 mm rise, 720 mm width"
+                ],
+                "*Stem": [
+                    "Size: SBontrager Elite, 31.8 mm, Blendrcompatible, 7degree, 60 mm length",
+                    "Size: MBontrager Elite, 31.8 mm, Blendrcompatible, 7degree, 70 mm length",
+                    "Size: LBontrager Elite, 31.8 mm, Blendrcompatible, 7degree, 80 mm length",
+                    "Size: XL, XXLBontrager Elite, 31.8 mm, Blendrcompatible, 7degree, 90 mm length"
+                ],
+                "Head set": [
+                    "Semiintegrated, loose ball bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "Shimano MT200 hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, L, XL, XXLShimano RT26, 6bolt,160 mm",
+                    "Size: L, XL, XXLShimano RT26, 6bolt,180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 13.80 kg 30.42 lbs with tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "marlin7": {
+        "title": "Marlin 7",
+        "price": 15000,
+        "display_price": "R 15 000",
+        "img": "marlin7.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "Alpha Silver Aluminium, internal routing, chainstay discbrake mount, rack and kickstand mount, 135x5 mm QR"
+                ],
+                "*Fork": [
+                    "Size: S RockShox Judy, coil spring, preload, TurnKey lockout, 42 mm offset for 27.5 wheel, 100 mm QR, 100 mm travel",
+                    "Size: M , L , XL , XXL RockShox Judy, coil spring, preload, TurnKey lockout, 46 mm offset for 29 wheel, 100 mm QR, 100 mm travel"
+                ],
+                "Max compatible fork travel": [
+                    "100mm XS S: 490mm axletocrown, M up: 509mm axletocrown"
+                ]
+            },
+            "Wheels": {
+                "Hub front": [
+                    "Formula DC20, alloy, 6bolt, 5x100 mm QR"
+                ],
+                "Hub rear": [
+                    "Formula DC22, alloy, 6bolt, Shimano 8910 freehub, 135x5 mm QR"
+                ],
+                "Rim": [
+                    "Bontrager Kovee, doublewall, Tubeless Ready, 28hole, 23 mm width, Presta valve"
+                ],
+                "Spokes": [
+                    "14 g stainless steel"
+                ],
+                "*Tyre": [
+                    "Size: S Bontrager XR2 Comp, wire bead, 30 tpi, 27.5x2.20",
+                    "Size: M , L , XL , XXL Bontrager XR2 Comp, wire bead, 30 tpi, 29x2.20"
+                ],
+                "Max tyre size": [
+                    "Frame: 29x2.20 XS S: 27.5x2.4 Fork: See manufacturer"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "Shimano Deore M4100, 10 speed"
+                ],
+                "Rear derailleur": [
+                    "Shimano Deore M5120, long cage"
+                ],
+                "*Crank": [
+                    "Size: S , M FSA Alpha Drive, 28T steel ring, Boost, 170 mm length",
+                    "Size: L , XL , XXL FSA Alpha Drive, 28T steel ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "FSA, 73 mm, threaded cartridge, 122.5 mm spindle"
+                ],
+                "Cassette": [
+                    "Shimano Deore M4100, 1146, 10speed"
+                ],
+                "Chain": [
+                    "KMC X10, 10speed"
+                ],
+                "Pedal": [
+                    "VP536 nylon platform"
+                ],
+                "Max. chainring size": [
+                    "1x2x: 34T, 3x: 42T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Arvada, steel rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: S , M Bontrager alloy, 31.6 mm, 12 mm offset, 330 mm length",
+                    "Size: L , XL , XXL Bontrager alloy, 31.6 mm, 12 mm offset, 400 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager alloy, 31.8 mm, 5 mm rise, 720 mm width"
+                ],
+                "Grips": [
+                    "Bontrager XR Trail Comp, nylon lockon"
+                ],
+                "*Stem": [
+                    "Size: S Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 60 mm length",
+                    "Size: M Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 70 mm length",
+                    "Size: L Bontrager alloy, 31.8 mm, Blendrcompatible, 7degree, 80 mm length",
+                    "Size: XL , XXL Bontrager alloy, 31.8 mm clamp, Blendrcompatible, 7degree, 90 mm length"
+                ],
+                "Head set": [
+                    "Semiintegrated, 118"
+                ],
+                "Brake": [
+                    "Shimano MT200 hydraulic disc"
+                ],
+                "*Brake rotor": [
+                    "Size: S , M , L , XL , XXL Shimano RT26, 6bolt,160 mm",
+                    "Size: L , XL , XXL Shimano RT26, 6bolt,180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 13.77 kg 30.35 lb with tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "topfuel9.9xx1axs": {
+        "title": "Top Fuel 9.9 XX1 AXS",
+        "price": 150000,
+        "display_price": "R 150 000",
+        "img": "topfuel9.9xx1axs.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, tapered head tube, Knock Block, Control Freak internal routing, Carbon Armor, magnesium rocker link, Mino Link, ABP, Boost148, 115 mm travel"
+                ],
+                "Fork": [
+                    "RockShox Pike Ultimate, DebonAir spring, Charger 2 RC2 damper, remote lockout, tapered steerer, 42 mm offset, Boost110, 15 mm Maxle Stealth, 120 mm travel"
+                ],
+                "Shock": [
+                    "RockShox Deluxe Ultimate, 190x45 mm"
+                ],
+                "Suspension lever": [
+                    "RockShox TwistLoc Full Sprint dual remote"
+                ],
+                "Max compatible fork travel": [
+                    "130mm"
+                ]
+            },
+            "Wheels": {
+                "Wheel front": [
+                    "Bontrager Kovee Pro 30 carbon, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Wheel rear": [
+                    "Bontrager Kovee Pro 30 carbon, Tubeless Ready, Rapid Drive 108, 6bolt, SRAM XD driver, Boost148, 12 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thru axle, removable lever"
+                ],
+                "Tyre": [
+                    "Bontrager XR3 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.40"
+                ],
+                "*Tyre part": [
+                    "Size: ML, LBontrager TLR valve, 50 mm",
+                    "Size: ML, LBontrager TLR sealant, 180 ml6 oz"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "29x2.40"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM Eagle AXS, wireless, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM XX1 Eagle AXS"
+                ],
+                "Crank": [
+                    "SRAM XX1 Eagle AXS, DUB, 32T alloy ring, Boost, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM XG1299 Eagle, 1050, 12speed"
+                ],
+                "Chain": [
+                    "SRAM XX1 Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "34T"
+                ]
+            },
+            "Components": {
+                "*Seatpost": [
+                    "Size: MLRockShox Reverb AXS, 150mm travel, wireless, 31.6 mm, 440 mm length",
+                    "Size: LRockShox Reverb AXS, 170mm travel, wireless, 31.6 mm, 480 mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Kovee XXX, OCLV Carbon, 35 mm, 0 mm rise, 720 mm width"
+                ],
+                "Stem": [
+                    "Bontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 80 mm length"
+                ],
+                "Head set": [
+                    "Knock Block Integrated, 58degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "SRAM Level Ultimate hydraulic disc, carbon levers"
+                ],
+                "*Brake rotor": [
+                    "Size: ML, LSRAM CenterLine, 6bolt, roundedge, 160 mm",
+                    "Size: ML, LSRAM CenterLine, 6bolt, round edge, 180 mm"
+                ]
+            },
+            "Accessories": {
+                "Electronics": [
+                    "SRAM Etap Battery Pack w Charger"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 11.48 kg 25.30 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    },
+    "topfuel9.9": {
+        "title": "Top Fuel 9.9",
+        "price": 130000,
+        "display_price": "R 130 000",
+        "img": "topfuel9.9.jpg",
+        "specifications": {
+            "Frameset": {
+                "Frame": [
+                    "OCLV Mountain Carbon main frame and stays, tapered head tube, Knock Block, Control Freak internal routing, Carbon Armor, magnesium rocker link, Mino Link, ABP, Boost148, 115 mm travel"
+                ],
+                "Fork": [
+                    "Fox Factory 34 StepCast, Float EVOL air spring, FIT4 2position damper, dual remote lockout, tapered steerer, 44 mm offset, Kashima Coat, Boost110, 15 mm Kabolt axle, 120 mm travel"
+                ],
+                "Shock": [
+                    "Fox Factory Float, 2position DPS damper, Kashima Coat, 190x45 mm"
+                ],
+                "Suspension lever": [
+                    "RockShox TwistLoc Full Sprint dual remote"
+                ],
+                "Max compatible fork travel": [
+                    "130mm"
+                ]
+            },
+            "Wheels": {
+                "Wheel front": [
+                    "Bontrager Kovee Pro 30 carbon, Tubeless Ready, 6bolt, Boost110, 15 mm thru axle"
+                ],
+                "Wheel rear": [
+                    "Bontrager Kovee Pro 30 carbon, Tubeless Ready, Rapid Drive 108, 6bolt, SRAM XD driver, Boost148, 12 mm thru axle"
+                ],
+                "Skewer rear": [
+                    "Bontrager Switch thru axle, removable lever"
+                ],
+                "Tyre": [
+                    "Bontrager XR3 Team Issue, Tubeless Ready, Inner Strength sidewall, aramid bead, 120 tpi, 29x2.40"
+                ],
+                "Tyre part": [
+                    "Bontrager TLR valve, 50 mm"
+                ],
+                "Rim strip": [
+                    "Bontrager TLR"
+                ],
+                "Max tyre size": [
+                    "29x2.40"
+                ]
+            },
+            "Drivetrain": {
+                "Shifter": [
+                    "SRAM XX1 Eagle, 12speed"
+                ],
+                "Rear derailleur": [
+                    "SRAM XX1 Eagle"
+                ],
+                "*Crank": [
+                    "Size: SSRAM XX1 Eagle Carbon, DUB, 32T alloy ring, Boost, carbon, 170 mm length",
+                    "Size: M, XXLSRAM XX1 Eagle Carbon, DUB, 32T alloy ring, Boost, carbon, 175 mm length"
+                ],
+                "Bottom bracket": [
+                    "SRAM DUB, 92 mm, PressFit"
+                ],
+                "Cassette": [
+                    "SRAM XG1295 Eagle, 1050, 12speed"
+                ],
+                "Chain": [
+                    "SRAM XX1 Eagle, 12speed"
+                ],
+                "Max. chainring size": [
+                    "34T"
+                ]
+            },
+            "Components": {
+                "Saddle": [
+                    "Bontrager Montrose Pro, 7x10 mm carbon rails, 138 mm width"
+                ],
+                "*Seatpost": [
+                    "Size: SBontrager Line Elite Dropper, 100 mm travel, internal routing, 31.6 mm, 340 mm length",
+                    "Size: MBontrager Line Elite Dropper, 150mm travel, internal routing, 31.6 mm, 440mm length",
+                    "Size: XXLBontrager Line Elite Dropper, 170mm travel, internal routing, 31.6 mm, 480mm length"
+                ],
+                "Handlebar": [
+                    "Bontrager Line Pro, OCLV Carbon, 35 mm, 15 mm rise, 750 mm width"
+                ],
+                "*Stem": [
+                    "Size: S, MBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 60 mm length",
+                    "Size: XXLBontrager Kovee Pro, 35 mm, Knock Block, Blendrcompatible, 13degree, 70 mm length"
+                ],
+                "Head set": [
+                    "Knock Block Integrated, 58degree radius, cartridge bearing, 118 top, 1.5 bottom"
+                ],
+                "Brake": [
+                    "SRAM Level Ultimate hydraulic disc, carbon levers, 180 mm front rotor, 160 mm rear rotor"
+                ],
+                "*Brake rotor": [
+                    "Size: S, M, XXLSRAM CenterLine, 6bolt, roundedge, 160 mm",
+                    "Size: S, M, XXLSRAM CenterLine, 6bolt, round edge, 180 mm"
+                ]
+            },
+            "Weight": {
+                "Weight": [
+                    "M 11.11 kg 24.49 lbs with TLR sealant, no tubes"
+                ],
+                "Weight limit": [
+                    "This bike has a maximum total weight limit combined weight of bicycle, rider and cargo of 136 kg 300 lb."
+                ]
+            }
+        }
+    }
+}

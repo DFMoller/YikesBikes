@@ -1,0 +1,83 @@
+@import "root.css";
+
+
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey);
+}
+nav a{
+    color: var(--light);
+}
+nav a:hover {
+    color: var(--light);
+}
+.nav-wrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+nav h3{
+    margin: 0.6em 1em;
+}
+/* .cart-link{
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.cart-link p{
+    color: var(--light);
+    margin: 0 0 0 0.3rem;
+}
+.cart{
+    height: 1.5rem;
+    width: 2rem;
+}
+.cart path{
+    fill: white;
+    stroke: var(--light);
+}
+.wheel{
+    fill: var(--light);
+} */
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0em 1em;
+}
+.nav-links li{
+    margin: 0em 0.5em;
+}
+.nav-note{
+    margin: 0em 1em;
+}
+.dropdown{
+    margin: 0em 1em;
+}
+nav .btn{
+    background-color: var(--light);
+    color: var(--dark-grey);
+}
+.nav-cart-link{
+    margin-right: 1rem;
+}
+.nav-cart{
+    width: 2rem;
+    height: 2rem;
+}
+/* .nav-cart:hover{
+    cursor: pointer;
+} */
+.nav-cart path{
+    stroke: var(--light);
+}
+.nav-cart-wheel {
+    fill: var(--light);
+}

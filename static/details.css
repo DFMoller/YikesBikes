@@ -1,0 +1,96 @@
+@import "root.css";
+
+/* .details-body{
+    background-color: #ffffff;
+} */
+.details-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bike-card{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem 3rem;
+}
+.bike-img{
+    width: 50%;
+}
+.right-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-card{
+    padding: 1rem 2rem;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bike-action{
+    display: flex;
+    align-items: center;
+}
+.add-to-cart-button{
+    color: var(--green);
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.4);
+    background-color: var(--light);
+    padding: 0.4rem 1rem;
+}
+.add-to-cart-button:hover{
+    cursor: pointer;
+}
+.add-to-cart-button span{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+.add-to-cart-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.add-to-cart-icon path{
+    stroke:  var(--green);
+}
+.add-to-cart-wheel{
+    fill: var(--green);
+}
+.specifications{
+    margin-top: 2rem;
+    width: 80%;
+}
+.spec-section-title{
+    margin-bottom: 2rem;
+}
+.spec-table{
+    width: 100%;
+    border: none;
+    border-top: 3px solid var(--dark-grey);
+    margin-bottom: 2rem;
+}
+.spec-th{
+    /* text-align: center; */
+    padding: 0.5rem 0;
+    width: 25%;
+    border: 1px solid var(--dark-grey);
+    border-left: none;
+    color: var(--dark-grey);
+}
+.spec-td{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--dark-grey);
+    border-right: none;
+    color: var(--dark-grey);
+}
+.spec-title{
+    padding-left: 1rem;
+    width: 80%;
+    color: var(--dark-grey);
+}

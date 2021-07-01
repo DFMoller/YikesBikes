@@ -1,0 +1,103 @@
+@import "root.css";
+
+.payment-center-col{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem 1rem;
+}
+.payment-side-col{
+    padding: 2rem 1rem;
+    width: 15%;
+    /* background-color: lightblue; */
+    height: 100%;
+}
+.horizontal-box{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.payment-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%; 
+}
+.payment-summary-title{
+    margin-top: 1rem;
+}
+.payment-summary-table{
+    width: 100%;
+    border-radius: 5px;
+    border-collapse: separate;
+    background-color: white;
+}
+.payment-summary-table td, .payment-summary-table th {
+    padding: 0.15rem 0.3rem;
+    border: none;
+    color: var(--dark-grey);
+}
+.payment-summary-table th{
+    border-right: 1px solid var(--grey);
+}
+.payment-summary-table td{
+    width: 25%;
+    text-align: center;
+}
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.payment-form label{
+    margin: 0.5rem 0 0 0;
+    color: var(--dark-grey);
+    font-family: "Poppins", sans-serif;
+}
+.flnamebox, .countryzipbox, .cardnamenumberbox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.flnamebox input, .countryzipbox input , .cardnamenumberbox input, .expirecvvbox input{
+    width: 100%;
+}
+.fnamebox, .lnamebox, .countrybox, .zipbox, .cardnamebox, .cardnumberbox, .expirebox, .cvvbox, .expiremonth, .expireyear{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.payment-title{
+    margin-top: 2rem;
+}
+.expirecvvbox{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+.make-payment{
+    margin-top: 1rem;
+    padding: 0.25rem 1rem;
+    /* align-self: flex-end; */
+    background-color: var(--green);
+    color: white;
+    border: 1px solid var(--dark-grey);
+    border-radius: 3px;
+}
+.make-payment:hover{
+    background-color: #3b966a;
+}
+.innerexpirebox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.grandTotal-row{
+    border-top: 1px solid var(--dark-grey);
+}
+

@@ -1,0 +1,125 @@
+@import "root.css";
+
+.cart-body{
+    height: 100vh;
+    width: 100%;
+}
+.cart-main{
+    height: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cart-center-col{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem 1rem;
+}
+.cart-side-col{
+    padding: 2rem 1rem;
+    width: 25%;
+    /* background-color: lightblue; */
+    height: 100%;
+}
+.cart-table{
+    width: 100%;
+    color: var(--dark-grey);
+}
+.cart-main tr{
+    border: 1px solid var(--dark-grey);
+}
+.cart-table th{
+    /* text-align: center; */
+    padding: 0.25rem 0.5rem;
+    font-size: 20px;
+    /* border-radius: 5px; */
+}
+.cart-table td{
+    padding: 0.25rem 0.5rem;
+}
+.td-narrow{
+    text-align: center;
+    width: 15%;
+}
+.td-narrow input{
+    width: 90%;
+}
+.cart-summary-table{
+    width: 100%;
+    border-radius: 5px;
+    border-collapse: separate;
+    background-color: white;
+}
+.cart-summary-table td, .cart-summary-table th {
+    padding: 0.15rem 0.3rem;
+    border: none;
+    color: var(--dark-grey);
+}
+.bike-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    background-color: white;
+}
+.bike-links li{
+    padding: 0.25rem 0.5rem;
+    /* border: 2px solid var(--light-grey); */
+}
+.bike-links a{
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+.bike-links li:hover{
+    cursor:pointer;
+    background-color: var(--light);
+}
+.bikes-side-table{
+    background-color: #ffffff;
+    /* border: none; */
+    border: 1px solid var(--grey);
+}
+.bikes-side-table tr:hover{
+    background-color: var(--light);
+    cursor: pointer;
+}
+.bikes-side-table a{
+    /* text-decoration: none; */
+    color: var(--green);
+    /* width: 100%; */
+}
+.cart-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.cart-checkout-btn{
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    align-self: flex-end;
+    background-color: var(--green);
+    color: white;
+    border: 1px solid var(--dark-grey);
+    border-radius: 3px;
+}
+.cart-checkout-btn:hover{
+    background-color: #3b966a;
+}
+.discount-notice{
+    background-color: var(--grey);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+.discount-notice p {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.submitFeedback{
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+@import "root.css";
+
+.history-box{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+}
+.hist-title{
+    padding-left: 1rem;
+    width: 80%;
+    color: var(--dark-grey);
+}
+.hist-timestamp{
+    margin-left: 1rem;
+}
+.hist-table{
+    width: 100%;
+    border: none;
+    border-top: 3px solid var(--dark-grey);
+    margin-bottom: 2rem;
+}
+.hist-table td, .hist-table th{
+    border: none;
+}
+.hist-table th{
+    color: var(--dark-grey);
+    padding: 0.5rem 0.25rem;
+}
+.hist-tr, .hist-title-row{
+    border-bottom: 1px solid var(--dark-grey);
+}
+.hist-td{
+    padding: 0.25rem;
+    color: var(--dark-grey);
+}
+.hist-td strong{
+    color: var(--dark-grey);
+}
+.hist-delivery-method{
+    margin-left: 0.5rem;
+}
+.hist-narrow{
+    width: 15%;
+}

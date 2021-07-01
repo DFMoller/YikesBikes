@@ -1,0 +1,29 @@
+@import "root.css";
+
+.account-wrapper{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid var(--grey);
+    border-radius: 1rem;
+    width: 50%;
+    padding: 3rem;
+}
+.account-overview, .account-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.pfp{
+    opacity: .2;
+    width: 100px;
+    height: 100px;
+}
+.account-details{
+    text-align: center;
+}
+/* .account-main{
+    height: 100%;
+} */
