@@ -4,8 +4,10 @@
 
     session_start();
 
-    if (!isset($_GET['destination']) || !isset($_SESSION['email'])) {
+    if (!isset($_GET['destination'])) {
         header("Location: products.php");
+    } elseif (!isset($_SESSION['username'])) {
+        header("Location: products.php?error=not_signed_in");
     } elseif (isset($_GET['destination']) && !isset($_SESSION['email'])) {
         // user not logged in
         // Redirect

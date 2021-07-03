@@ -76,7 +76,7 @@
     <?php include('templates/navigation.php'); ?>
 
     <main class="changepwd-main">
-        <h4 class="m-3">Reset Your Password</h4>
+        <h4 class="m-3 mt-5">Reset Your Password</h4>
         <p>You will receive an email containing instructions on how to reset your password.</p>
         <form class="auth-form" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
             <div class="mb-3">

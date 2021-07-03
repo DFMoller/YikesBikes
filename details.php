@@ -4,7 +4,8 @@
 
     if (!isset($_SESSION['username'])){
         // User Not signed in
-        header("Location: home.php?msg=error_not_signed_in");
+        header("Location: products.php?error=not_signed_in");
+        exit(); 
     } else {
 
         include_once("includes/db_connect.php");

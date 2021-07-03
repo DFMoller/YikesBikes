@@ -89,9 +89,9 @@
             <form class="delivery-form" action="payment.php" method="POST">
                 <div class="delivery-options">
                     <h5 class="delivery-title">Please select a delivery method</h5>
-                    <label for="DPD-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DPD-Radio" value="DPD" type="radio" name="delivery-method" checked>DPD<span>Description</span></label>
-                    <label for="DHL-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DHL-Radio" value="DHL" type="radio" name="delivery-method">DHL<span>Description</span></label>
-                    <label for="DHLX-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DHLX-Radio" value="DHLX" type="radio" name="delivery-method">DHL Express<span>Description</span></label>
+                    <label for="DPD-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DPD-Radio" value="DPD" type="radio" name="delivery-method" checked>DPD<span>R200</span></label>
+                    <label for="DHL-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DHL-Radio" value="DHL" type="radio" name="delivery-method">DHL<span>R400</span></label>
+                    <label for="DHLX-Radio"><input class="delivery-radio" onchange="updateDelivery();" id="DHLX-Radio" value="DHLX" type="radio" name="delivery-method">DHL Express<span>R700</span></label>
                 </div>
                 
                 <h4 class="summary-title">Order Summary</h4>

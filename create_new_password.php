@@ -98,7 +98,7 @@
                     // If these two are in valid hex format
                     ?>
 
-                    <form class="auth-form" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+                    <form class="auth-form mt-5" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
                         
                         <input type="hidden" name="selector" value="<?php echo $selector; ?>">
                         <input type="hidden" name="validator" value="<?php echo $validator; ?>">
